@@ -147,7 +147,9 @@ function PostForm({ post }) {
     );
 }
 
-export default PostFormimport { useCallback, useEffect } from "react";
+export default PostForm;
+
+import { useCallback, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { Button, Input, RTE, Select } from "../index.js";
 import appwriteService from "../../appwrite/appwrite.config";
